@@ -1,2 +1,483 @@
-﻿  Main.cpp
-  WGU Project.vcxproj -> C:\Users\kryst\source\repos\WGU Project\x64\Debug\WGU Project.exe
+﻿  Roster.cpp
+C:\Users\kryst\source\repos\WGU Project\Student.h(7,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(7,17): error C3646: 'studentID': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(7,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(8,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(8,17): error C3646: 'firstName': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(8,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(9,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(9,17): error C3646: 'lastName': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(9,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(10,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(10,17): error C3646: 'email': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(10,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(16,18): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(16,18): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,17): error C3646: 'getStudentID': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,29): error C2059: syntax error: '('
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,17): error C3646: 'getFirstName': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,29): error C2059: syntax error: '('
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,17): error C3646: 'getLastName': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,28): error C2059: syntax error: '('
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,17): error C3646: 'getEmail': unknown override specifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,25): error C2059: syntax error: '('
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,28): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,28): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,28): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,28): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,27): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,27): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,24): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,24): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(18,15): error C2039: 'studentID': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(18,27): error C2065: 'studentID': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(19,15): error C2039: 'firstName': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(19,27): error C2065: 'firstName': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(20,15): error C2039: 'lastName': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(20,26): error C2065: 'lastName': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(21,15): error C2039: 'email': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(21,23): error C2065: 'email': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,54): error C2039: 'studentID': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,66): error C2065: 'studentID': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,54): error C2039: 'firstName': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,66): error C2065: 'firstName': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,52): error C2039: 'lastName': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,63): error C2065: 'lastName': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,46): error C2039: 'email': is not a member of 'Student'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,54): error C2065: 'email': undeclared identifier
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,12): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Roster.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,19): error C2146: syntax error: missing ';' before identifier 'studentData'
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,31): error C3409: empty attribute block is not allowed
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,33): error C2059: syntax error: '='
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,35): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,35): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Roster.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,12): error C2039: 'string': is not a member of 'std'
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,12): error C2086: 'const int string': redefinition
+      C:\Users\kryst\source\repos\WGU Project\Roster.h(1,12):
+      see declaration of 'string'
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,19): error C2146: syntax error: missing ';' before identifier 'studentData'
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,31): error C3409: empty attribute block is not allowed
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,33): error C2059: syntax error: '='
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,35): error C2143: syntax error: missing ';' before '{'
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(5,35): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\kryst\source\repos\WGU Project\Roster.cpp(13,68): error C2059: syntax error: ')'
+  Main.cpp
+  Student.cpp
+C:\Users\kryst\source\repos\WGU Project\Student.h(7,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(7,17): error C3646: 'studentID': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(7,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(8,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(8,17): error C3646: 'firstName': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(8,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(9,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(9,17): error C3646: 'lastName': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(9,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(10,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(10,17): error C3646: 'email': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(10,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(16,18): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(16,18): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,17): error C3646: 'getStudentID': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,29): error C2059: syntax error: '('
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(28,37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,17): error C3646: 'getFirstName': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,29): error C2059: syntax error: '('
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(29,37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,17): error C3646: 'getLastName': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,28): error C2059: syntax error: '('
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(30,36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,17): error C3646: 'getEmail': unknown override specifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,25): error C2059: syntax error: '('
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(31,33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,28): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,28): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,28): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,28): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,27): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,27): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,24): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,24): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(18,15): error C2039: 'studentID': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(18,27): error C2065: 'studentID': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(19,15): error C2039: 'firstName': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(19,27): error C2065: 'firstName': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(20,15): error C2039: 'lastName': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(20,26): error C2065: 'lastName': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(21,15): error C2039: 'email': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(21,23): error C2065: 'email': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,54): error C2039: 'studentID': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(37,66): error C2065: 'studentID': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,54): error C2039: 'firstName': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(38,66): error C2065: 'firstName': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,52): error C2039: 'lastName': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(39,63): error C2065: 'lastName': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,46): error C2039: 'email': is not a member of 'Student'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\Student.h(5,7):
+      see declaration of 'Student'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.h(40,54): error C2065: 'email': undeclared identifier
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,12): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'Student.cpp')
+      C:\Users\kryst\source\repos\WGU Project\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,19): error C2146: syntax error: missing ';' before identifier 'studentData'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,31): error C3409: empty attribute block is not allowed
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,33): error C2059: syntax error: '='
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,35): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Roster.h(1,35): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Student.cpp')
+  
+C:\Users\kryst\source\repos\WGU Project\Student.cpp(5,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kryst\source\repos\WGU Project\Student.cpp(5,7): error C2086: 'const int string': redefinition
+      C:\Users\kryst\source\repos\WGU Project\Roster.h(1,12):
+      see declaration of 'string'
+  
+C:\Users\kryst\source\repos\WGU Project\Student.cpp(5,14): error C2146: syntax error: missing ';' before identifier 'studentData'
+C:\Users\kryst\source\repos\WGU Project\Student.cpp(5,26): error C3409: empty attribute block is not allowed
+C:\Users\kryst\source\repos\WGU Project\Student.cpp(5,28): error C2059: syntax error: '='
+C:\Users\kryst\source\repos\WGU Project\Student.cpp(5,30): error C2143: syntax error: missing ';' before '{'
+C:\Users\kryst\source\repos\WGU Project\Student.cpp(5,30): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
