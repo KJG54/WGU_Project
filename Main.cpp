@@ -6,14 +6,15 @@
 int main() {
     std::cout << "Scripting and Programming - Applications - C867" << std::endl << "C++" << std::endl << "011544201" << std::endl << "Krystian Garcia" << std::endl << std::endl;
     // std::cout << studentData[4];
-    // int exampleArray[]={3,3,3};
-    // Student example("A7","k","g","kg",2,exampleArray,SOFTWARE);
+     int exampleArray[]={3,3,3};
+     Student example("A7","k","g","kg",2,exampleArray,SOFTWARE);
     // std::cout << std::endl;
     // std::cout << example.getStudentID();
     // example.setStudentID("A8");
     // std::cout << example.getStudentID();
     //example.setDaysInCourse(exampleArray);
     //std::cout << example.getDaysInCourse();
+    example.print();
 }
 
 

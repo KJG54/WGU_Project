@@ -1,4 +1,5 @@
 #include <string>
+#include <iostream>
 #include "Degree.h"
 
 
@@ -48,5 +49,7 @@ public:
     void setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgram = degreeProgram; }
 
     //Print function
+    void print();
 
+ 
 };
