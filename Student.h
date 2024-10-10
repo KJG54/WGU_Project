@@ -1,6 +1,10 @@
-enum DegreeProgram {
-    SECURITY, NETWORK, SOFTWARE
-};
+#include <string>
+#include "Degree.h"
+
+
+//enum DegreeProgram {
+//    SECURITY, NETWORK, SOFTWARE
+//};
 
 class Student {
 public:
