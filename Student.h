@@ -2,12 +2,10 @@
 #include "Degree.h"
 
 
-//enum DegreeProgram {
-//    SECURITY, NETWORK, SOFTWARE
-//};
-
 class Student {
-public:
+
+private:
+
     std::string studentID;
     std::string firstName;
     std::string lastName;
@@ -15,6 +13,9 @@ public:
     int age;
     DegreeProgram degreeProgram;
     int daysInCourse[3];
+
+public:
+
 
     //Constructor
     Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[3], DegreeProgram degreeProgram)
