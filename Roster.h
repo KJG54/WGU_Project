@@ -5,3 +5,4 @@ const std::string studentData[] = {
     "A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
     "A5,Krystian,Garcia,Krystian.Garcia@Gmail.com,24,30,30,30,SOFTWARE"
 };
+

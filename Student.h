@@ -12,8 +12,8 @@ private:
     std::string lastName;
     std::string email;
     int age;
-    DegreeProgram degreeProgram;
     int daysInCourse[3];
+    DegreeProgram degreeProgram;
 
 public:
 
