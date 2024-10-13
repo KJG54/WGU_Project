@@ -16,17 +16,17 @@ private:
     DegreeProgram degreeProgram;
 
 public:
-
+    const int n = 3;
 
     //Constructor
-    Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[3], DegreeProgram degreeProgram)
+    Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram)
     {
         this->studentID = studentID;
         this->firstName = firstName;
         this->lastName = lastName;
         this->email = email;
         this->age = age;
-        this->daysInCourse[3] = daysInCourse[3];
+        this->daysInCourse[n] = daysInCourse[n];
         this->degreeProgram = degreeProgram;
     };
 
@@ -36,7 +36,7 @@ public:
     std::string getLastName()const { return lastName; }
     std::string getEmail()const { return email; }
     int getAge()const { return age; }
-    int getDaysInCourse()const { return daysInCourse[3]; }
+    int getDaysInCourse()const { return daysInCourse[n]; }
     DegreeProgram getDegreeProgram()const { return degreeProgram; }
 
     //Setters
@@ -45,7 +45,7 @@ public:
     void setLastName(std::string lastName) { this->lastName = lastName; }
     void setEmail(std::string email) { this->email = email; }
     void setAge(int age) { this->age = age; }
-    void setDaysInCourse(int daysInCourse[3]) { this->daysInCourse[3] = daysInCourse[3]; }
+    void setDaysInCourse(int daysInCourse[]) { this->daysInCourse[n] = daysInCourse[n]; }
     void setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgram = degreeProgram; }
 
     //Print function
