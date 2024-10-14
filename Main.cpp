@@ -15,6 +15,7 @@ int main() {
     //example.setDaysInCourse(exampleArray);
     //std::cout << example.getDaysInCourse();
     example.print();
+    std::cout << "Hello World";
 }
 
 
