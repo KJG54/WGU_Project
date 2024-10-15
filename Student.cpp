@@ -35,7 +35,7 @@ void Student::setDaysInCourse(int daysInCourse[]) { this->daysInCourse[n] = days
 void Student::setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgram = degreeProgram; }
 
 //functions
-void Student::print()
-{
-    std::cout << getStudentID();
-}
+//void Student::print()
+//{
+//    std::cout << getStudentID();
+//}

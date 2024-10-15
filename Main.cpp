@@ -6,8 +6,13 @@
 
 int main() {
     std::cout << "Scripting and Programming - Applications - C867" << std::endl << "C++" << std::endl << "011544201" << std::endl << "Krystian Garcia" << std::endl << std::endl;
-     int exampleArray[]={3,3,3};
-     Student example("A7","k","g","kg",2,exampleArray,SOFTWARE);
+	
+	
+
+
+
+
+
 
 }
 

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-Student* parse(std::string);
+
 
 class Roster
 {
@@ -12,15 +12,10 @@ public:
 
 	Roster();
 
-	//Declaration of RosterArray
-
-	Student* classRosterArray[5];
-
-	//loops
-
-
 
 	//Functions
+	void stringToObject();
+
 	void add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram);
 
 	void remove(std::string studentID);
@@ -32,6 +27,8 @@ public:
 	void printInvalidEmails();
 
 	void printByDegreeProgram(DegreeProgram degreeProgram);
+
+	Student* parse(std::string);
 
 
 private:
