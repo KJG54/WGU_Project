@@ -22,7 +22,7 @@ public:
     const int n = 3;
 
     //Constructor
-
+    Student();
     Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram);
 
 

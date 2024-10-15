@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "Student.h"
 #include "Degree.h"
 #include "Roster.h"
