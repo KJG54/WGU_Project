@@ -16,9 +16,13 @@ const std::string studentData[] = {
 class Student {
 
 public:
+
+    //number of slots for daysInCourse array
+
     const int n = 3;
 
     //Constructor
+
     Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram);
 
 
