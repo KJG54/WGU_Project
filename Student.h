@@ -19,10 +19,10 @@ public:
 
     //number of slots for daysInCourse array
 
-    const int n = 3;
+    static const int n = 3;
 
     //Constructor
-    Student();
+
     Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram);
 
 
@@ -57,7 +57,7 @@ private:
     std::string lastName;
     std::string email;
     int age;
-    int daysInCourse[3];
+    int daysInCourse[n];
     DegreeProgram degreeProgram;
 
 };

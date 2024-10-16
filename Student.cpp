@@ -5,7 +5,6 @@
 
 //Constructor definition
 
-Student::Student() {}
 Student::Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram)
 {
     this->studentID = studentID;

@@ -14,9 +14,6 @@ public:
 
 	/*Constructor*/
 
-	Roster();
-
-
 	//Functions
 	void stringToObject();
 

@@ -59,7 +59,6 @@ Student* Roster::parse(std::string student)
 
 //Functions
 
-Roster::Roster() {}
 void Roster::stringToObject()
 {
 
