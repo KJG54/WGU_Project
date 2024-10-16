@@ -2,11 +2,9 @@
 #include "Degree.h"
 #include "Roster.h"
 
-//Declaration of RosterArray
 
-Student* classRosterArray[5];
 
-Student* parse(std::string student)
+Student* Roster::parse(std::string student)
 {
 	size_t rhs = student.find(",");
 	std::string stuID = student.substr(0,rhs);
@@ -45,36 +43,49 @@ Student* parse(std::string student)
 	rhs = student.find(",", lhs);
 	std::string degree = student.substr(lhs, rhs - lhs);
 
-	//Add parse for degreeprogram from string
-	return new Student(stuID, first, last, email, stuAge, daysOfCourses, SECURITY);
+	DegreeProgram program = DegreeProgram::SECURITY;
+	
+	if (degree == "SOFTWARE")
+	{
+		program = DegreeProgram::SOFTWARE;
+	}
+	else if (degree == "NETWORK")
+	{
+		program = DegreeProgram::NETWORK;
+	}
+
+	return new Student(stuID, first, last, email, stuAge, daysOfCourses, program);
 }
 
 //Functions
 
-void stringToObject() 
+Roster::Roster() {}
+void Roster::stringToObject()
 {
 
 	for (int i = 0; i < 3; i++)
 	{
 		classRosterArray[i] = parse(studentData[i]);
-		std::cout << classRosterArray[i];
 	}
-	//make a complete student object for all students
 }
 
-void add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
+void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 {
-
-
+	int i = 0;
+	int daysOf3Courses[3]{daysInCourse1, daysInCourse2, daysInCourse3};
+	classRosterArray[i] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
+	i++;
 }
-void remove(std::string studentID)
+void Roster::remove(std::string studentID)
 {}
-void printAll()
+void Roster::printAll()
+{
+	std::cout << classRosterArray[0]->getFirstName();
+}
+void Roster::printAverageDaysInCourse(std::string studentID)
 {}
-void printAverageDaysInCourse(std::string studentID)
+void Roster::printInvalidEmails()
 {}
-void printInvalidEmails()
-{}
-void printByDegreeProgram(DegreeProgram degreeProgram)
+void Roster::printByDegreeProgram(DegreeProgram degreeProgram)
 {}
 

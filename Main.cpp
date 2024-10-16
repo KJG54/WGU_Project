@@ -8,7 +8,11 @@ int main() {
     std::cout << "Scripting and Programming - Applications - C867" << std::endl << "C++" << std::endl << "011544201" << std::endl << "Krystian Garcia" << std::endl << std::endl;
 	
 	
+	Roster testRoster;
 
+	testRoster.add("A7", "Krystian", "Garcia", "Krystian.Garcia@Gmail.com", 27, 30, 30, 30, SOFTWARE);
+
+	testRoster.printAll();
 
 
 
