@@ -1,5 +1,5 @@
-﻿  Roster.cpp
-C:\Users\kryst\source\repos\WGU_Project\Roster.cpp(49,2): error C2561: 'parse': function must return a value
-      C:\Users\kryst\source\repos\WGU_Project\Roster.cpp(9,10):
-      see declaration of 'parse'
-  
+﻿  Main.cpp
+  Roster.cpp
+  Student.cpp
+  Generating Code...
+  WGU Project.vcxproj -> C:\Users\kryst\source\repos\WGU Project\x64\Debug\WGU Project.exe

@@ -46,7 +46,8 @@ public:
     void setDaysInCourse(int daysInCourse[]);
     void setDegreeProgram(DegreeProgram degreeProgram);
 
-    //Print function
+    //Additional functions
+
     void print();
 
 private:

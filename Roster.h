@@ -8,6 +8,10 @@ class Roster
 
 public:
 
+	//Declaration of RosterArray
+
+	Student* classRosterArray[5];
+
 	/*Constructor*/
 
 	Roster();
@@ -33,11 +37,6 @@ public:
 
 private:
 
-	Student student1;
-	Student student2;
-	Student student3;
-	Student student4;
-	Student student5;
 };
 
 

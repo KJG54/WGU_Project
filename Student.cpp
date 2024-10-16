@@ -2,7 +2,10 @@
 #include "Degree.h"
 #include "Roster.h"
 
+
 //Constructor definition
+
+Student::Student() {}
 Student::Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram)
 {
     this->studentID = studentID;
@@ -34,8 +37,6 @@ void Student::setAge(int age) { this->age = age; }
 void Student::setDaysInCourse(int daysInCourse[]) { this->daysInCourse[n] = daysInCourse[n]; }
 void Student::setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgram = degreeProgram; }
 
-//functions
-//void Student::print()
-//{
-//    std::cout << getStudentID();
-//}
+//Additional functions
+
+void Student::print() {}
