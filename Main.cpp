@@ -14,7 +14,7 @@ int main() {
 
 	testRoster.printAll();
 
-
+	std::cout << "\n" << "hello world";
 
 
 
