@@ -15,7 +15,7 @@ int main() {
 	testRoster.printAll();
 
 
-
+	std::cout << "Hello World";
 }
 
 
