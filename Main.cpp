@@ -14,8 +14,6 @@ int main() {
 
 	testRoster.printAll();
 
-	std::cout << "Malik and Chavez were here";
-
 
 
 }
