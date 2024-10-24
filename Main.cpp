@@ -13,9 +13,6 @@ int main() {
 	testRoster.add("A7", "Krystian", "Garcia", "Krystian.Garcia@Gmail.com", 27, 30, 30, 30, SOFTWARE);
 
 	testRoster.printAll();
-
-
-	std::cout << "Hello World";
 }
 
 
