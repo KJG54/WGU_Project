@@ -71,7 +71,7 @@ void Roster::stringToObject()
 void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 {
 	int i = 0;
-	int daysOf3Courses[3]{daysInCourse1, daysInCourse2, daysInCourse3};
+	int daysOf3Courses[3] = {daysInCourse1, daysInCourse2, daysInCourse3};
 	classRosterArray[i] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
 	i++;
 }
