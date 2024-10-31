@@ -4,7 +4,7 @@
 
 
 
-Student* Roster::parse(std::string student)
+void Roster::parse(std::string student)
 {
 	size_t rhs = student.find(",");
 	std::string stuID = student.substr(0,rhs);
@@ -53,27 +53,18 @@ Student* Roster::parse(std::string student)
 	{
 		program = DegreeProgram::NETWORK;
 	}
-
-	return new Student(stuID, first, last, email, stuAge, daysOfCourses, program);
+	Roster::add(stuID, first, last, email, stuAge, daysOfCourse1, daysOfCourse2, daysOfCourse3, program);
+	//return new Student(stuID, first, last, email, stuAge, daysOfCourses, program);
 }
 
 //Functions
 
-void Roster::stringToObject()
-{
-
-	for (int i = 0; i < 3; i++)
-	{
-		classRosterArray[i] = parse(studentData[i]);
-	}
-}
-
 void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 {
-	int i = 0;
+	int j = 0;
 	int daysOf3Courses[3] = {daysInCourse1, daysInCourse2, daysInCourse3};
-	classRosterArray[i] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
-	i++;
+	classRosterArray[j] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
+	j++;
 }
 void Roster::remove(std::string studentID)
 {}
