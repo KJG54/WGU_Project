@@ -7,15 +7,26 @@
 int main() {
     std::cout << "Scripting and Programming - Applications - C867" << std::endl << "C++" << std::endl << "011544201" << std::endl << "Krystian Garcia" << std::endl << std::endl;
 	
+	Roster classRoster;
+
+	for (int i = 0; i < 5; i++)
+	{
+		classRoster.parse(studentData[i]);
+	}
+
+	/*classRoster.add("A7", "Krystian", "Garcia", "Krystian.Garcia@Gmail.com", 27, 30, 30, 30, SOFTWARE);*/
+	/*classRoster.parse(studentData[3]);*/
+	std::cout << classRoster.classRosterArray[0]->getFirstName();
+
+
+	//for (int i = 0; i < 5; i++)
+	//{
+
+	//}
+
+	//std::cout << testRoster.parse(studentData[0]);
+
 	
-	Roster testRoster;
-
-	testRoster.add("A7", "Krystian", "Garcia", "Krystian.Garcia@Gmail.com", 27, 30, 30, 30, SOFTWARE);
-
-	testRoster.printAll();
-
-
-	std::cout << "Hello World";
 }
 
 

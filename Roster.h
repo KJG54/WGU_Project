@@ -29,7 +29,7 @@ public:
 
 	void printByDegreeProgram(DegreeProgram degreeProgram);
 
-	Student* parse(std::string);
+	void parse(std::string);
 
 
 private:
