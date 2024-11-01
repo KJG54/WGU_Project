@@ -54,23 +54,35 @@ void Roster::parse(std::string student)
 		program = DegreeProgram::NETWORK;
 	}
 	Roster::add(stuID, first, last, email, stuAge, daysOfCourse1, daysOfCourse2, daysOfCourse3, program);
-	//return new Student(stuID, first, last, email, stuAge, daysOfCourses, program);
 }
 
 //Functions
+//Create loop for add function that says if classRosterArray[j] has no value assigned then add the next new student object there.
 
 void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 {
-	int j = 0;
 	int daysOf3Courses[3] = {daysInCourse1, daysInCourse2, daysInCourse3};
 	classRosterArray[j] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
 	j++;
 }
 void Roster::remove(std::string studentID)
-{}
+{
+	//Create a second classRoster array without the "deleted" object and just make the old roster equal the new one.
+}
 void Roster::printAll()
 {
-	std::cout << classRosterArray[0]->getFirstName();
+
+	for (int i = 0; i < 5; i++)
+	{
+		std::cout << classRosterArray[i]->getStudentID()
+			<< "       " << classRosterArray[i]->getFirstName()
+			<< "       " << classRosterArray[i]->getLastName()
+			<< "       " << classRosterArray[i]->getEmail()
+			<< "       " << classRosterArray[i]->getAge()
+			/*<< "       " << classRosterArray[i]->getDaysInCourse()*/
+			<< "       " << classRosterArray[i]->getDegreeProgram() << std::endl;
+	}
+	 
 }
 void Roster::printAverageDaysInCourse(std::string studentID)
 {}

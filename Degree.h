@@ -2,6 +2,10 @@
 #define DEGREE_H_
 
 enum DegreeProgram
- {SECURITY, NETWORK, SOFTWARE };
+ {
+SECURITY,
+NETWORK,
+SOFTWARE
+};
 
 #endif 
