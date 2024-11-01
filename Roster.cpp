@@ -71,15 +71,14 @@ void Roster::remove(std::string studentID)
 }
 void Roster::printAll()
 {
-
 	for (int i = 0; i < 5; i++)
 	{
-		std::cout << classRosterArray[i]->getStudentID()
+			std::cout << classRosterArray[i]->getStudentID()
 			<< "       " << classRosterArray[i]->getFirstName()
 			<< "       " << classRosterArray[i]->getLastName()
 			<< "       " << classRosterArray[i]->getEmail()
 			<< "       " << classRosterArray[i]->getAge()
-			/*<< "       " << classRosterArray[i]->getDaysInCourse()*/
+			<< "       " << classRosterArray[i]->getDaysInCourse()
 			<< "       " << classRosterArray[i]->getDegreeProgram() << std::endl;
 	}
 	 

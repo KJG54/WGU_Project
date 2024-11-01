@@ -5,16 +5,24 @@
 
 //Constructor definition
 
-Student::Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram)
+Student::Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, const int daysInCourse[], DegreeProgram degreeProgram) : size(sizeof(daysInCourse))
 {
     this->studentID = studentID;
     this->firstName = firstName;
     this->lastName = lastName;
     this->email = email;
     this->age = age;
-    this->daysInCourse[n] = daysInCourse[n];
+    this->daysInCourses = new int [size];
+    for (int i = 0; i < 3; i++)
+    {
+        daysInCourses[i] = daysInCourse[i];
+    }
     this->degreeProgram = degreeProgram;
 }
+
+//Destructors
+
+
 
 //Getter definitions
 
@@ -23,7 +31,7 @@ std::string Student::getFirstName()const { return firstName; }
 std::string Student::getLastName()const { return lastName; }
 std::string Student::getEmail()const { return email; }
 int Student::getAge()const { return age; }
-int Student::getDaysInCourse()const { return daysInCourse[n]; }
+int* Student::getDaysInCourse()const { return daysInCourses; }
 //DegreeProgram Student::getDegreeProgram()const { return degreeProgram; }
 std::string Student::getDegreeProgram()const 
 { 
@@ -51,7 +59,7 @@ void Student::setFirstName(std::string firstName) { this->firstName = firstName;
 void Student::setLastName(std::string lastName) { this->lastName = lastName; }
 void Student::setEmail(std::string email) { this->email = email; }
 void Student::setAge(int age) { this->age = age; }
-void Student::setDaysInCourse(int daysInCourse[]) { this->daysInCourse[n] = daysInCourse[n]; }
+void Student::setDaysInCourse(int daysInCourse[]) { this->daysInCourses[n] = daysInCourse[n]; }
 void Student::setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgram = degreeProgram; }
 
 //Additional functions

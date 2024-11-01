@@ -23,7 +23,7 @@ public:
 
     //Constructor
     Student();
-    Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram);
+    Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, const int daysInCourse[], DegreeProgram degreeProgram);
 
 
     //Getters
@@ -33,7 +33,7 @@ public:
     std::string getLastName()const;
     std::string getEmail()const;
     int getAge()const;
-    int getDaysInCourse()const;
+    int* getDaysInCourse()const;
     std::string getDegreeProgram()const;
 
     //Setters
@@ -52,12 +52,14 @@ public:
 
 private:
 
+    int size;
+
     std::string studentID;
     std::string firstName;
     std::string lastName;
     std::string email;
     int age;
-    int daysInCourse[n];
+    int* daysInCourses;
     DegreeProgram degreeProgram;
 };
 
