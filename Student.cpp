@@ -24,7 +24,25 @@ std::string Student::getLastName()const { return lastName; }
 std::string Student::getEmail()const { return email; }
 int Student::getAge()const { return age; }
 int Student::getDaysInCourse()const { return daysInCourse[n]; }
-DegreeProgram Student::getDegreeProgram()const { return degreeProgram; }
+//DegreeProgram Student::getDegreeProgram()const { return degreeProgram; }
+std::string Student::getDegreeProgram()const 
+{ 
+    std::string degree;
+
+    switch (degreeProgram)
+    {
+    case SECURITY:
+        degree = "SECURITY";
+        break;
+    case NETWORK:
+        degree = "NETWORK";
+        break;
+    case SOFTWARE:
+        degree = "SOFTWARE";
+        break;
+    }
+    return degree;
+}
 
 //Setter definitions
 

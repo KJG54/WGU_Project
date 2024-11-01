@@ -22,7 +22,7 @@ public:
     static const int n = 3;
 
     //Constructor
-
+    Student();
     Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, int daysInCourse[], DegreeProgram degreeProgram);
 
 
@@ -34,7 +34,7 @@ public:
     std::string getEmail()const;
     int getAge()const;
     int getDaysInCourse()const;
-    DegreeProgram getDegreeProgram()const;
+    std::string getDegreeProgram()const;
 
     //Setters
 
@@ -59,7 +59,6 @@ private:
     int age;
     int daysInCourse[n];
     DegreeProgram degreeProgram;
-
 };
 
 #endif 
