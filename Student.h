@@ -52,8 +52,6 @@ public:
 
 private:
 
-    int size;
-
     std::string studentID;
     std::string firstName;
     std::string lastName;
