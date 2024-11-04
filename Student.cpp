@@ -5,14 +5,14 @@
 
 //Constructor definition
 
-Student::Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, const int daysInCourse[], DegreeProgram degreeProgram) : size(sizeof(daysInCourse))
+Student::Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, const int daysInCourse[], DegreeProgram degreeProgram)
 {
     this->studentID = studentID;
     this->firstName = firstName;
     this->lastName = lastName;
     this->email = email;
     this->age = age;
-    this->daysInCourses = new int [size];
+    this->daysInCourses = new int [3];
     for (int i = 0; i < 3; i++)
     {
         daysInCourses[i] = daysInCourse[i];
