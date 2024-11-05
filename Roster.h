@@ -7,6 +7,10 @@ class Roster
 
 public:
 
+	Roster() {};
+
+	~Roster() {};
+
 	int j = 0;
 
 	int size = 5;

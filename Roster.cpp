@@ -2,7 +2,6 @@
 #include "Degree.h"
 #include "Roster.h"
 
-
 //Functions
 void Roster::parse(std::string student)
 {
@@ -201,5 +200,6 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram)
 		}
 
 	}
+
 }
 
