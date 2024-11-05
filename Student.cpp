@@ -64,4 +64,14 @@ void Student::setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgra
 
 //Additional functions
 
-void Student::print() {}
+void Student::print() 
+{
+    int* arr = getDaysInCourse();
+
+    std::cout << getStudentID() << "\t";
+    std::cout << "First Name: " << getFirstName() << "\t";
+    std::cout << "Last Name: " << getLastName() << "\t";
+    std::cout << "Age: " << getAge() << "\t";
+    std::cout << "daysInCourse: {" << arr[0] << ", " << arr[1] << ", " << arr[2] << "} ";
+    std::cout << "Degree Program: " << getDegreeProgram() << std::endl;
+}

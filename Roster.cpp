@@ -73,19 +73,9 @@ void Roster::printAll()
 {
 	for (int i = 0; i < 5; i++)
 	{
-			std::cout << classRosterArray[i]->getStudentID()<< "       " 
-			<< classRosterArray[i]->getFirstName()<< "       " 
-			<< classRosterArray[i]->getLastName()<< "       " 
-			<< classRosterArray[i]->getEmail()<< "       " 
-			<< classRosterArray[i]->getAge()<< "       ";
-			int* arr = classRosterArray[i]->getDaysInCourse();
-			for (int j = 0; j < 3; j++)
-			{
-				std::cout << arr[j] << " ";
-			}
-			std::cout << "       " 
-			<< classRosterArray[i]->getDegreeProgram() << std::endl;
+		classRosterArray[i]->print();
 	}
+	std::cout << std::endl;
 	 
 }
 void Roster::printAverageDaysInCourse(std::string studentID)

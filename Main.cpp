@@ -17,4 +17,5 @@ int main() {
 	classRoster.printAll();
 	
 	classRoster.printInvalidEmails();
+	//classRoster.classRosterArray[0]->print();
 }
