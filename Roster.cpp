@@ -3,7 +3,7 @@
 #include "Roster.h"
 
 
-
+//Functions
 void Roster::parse(std::string student)
 {
 	size_t rhs = student.find(",");
@@ -56,9 +56,6 @@ void Roster::parse(std::string student)
 	Roster::add(stuID, first, last, email, stuAge, daysOfCourse1, daysOfCourse2, daysOfCourse3, program);
 }
 
-//Functions
-//Create loop for add function that says if classRosterArray[j] has no value assigned then add the next new student object there.
-
 void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 {
 	int daysOf3Courses[3] = {daysInCourse1, daysInCourse2, daysInCourse3};
@@ -67,15 +64,36 @@ void Roster::add(std::string studentID, std::string firstName, std::string lastN
 }
 void Roster::remove(std::string studentID)
 {
-	//Create a second classRoster array without the "deleted" object and just make the old roster equal the new one.
+	Student* newArr[4];
+
+	int removing = -1;
+
+	std::cout << "Removing " << studentID << std::endl;	
+
+	for (int i = 0; i < 5; i++)
+	{
+		if (classRosterArray[i]->getStudentID() == studentID) {
+			removing = i;
+			break;
+		}
+	}
+	if (removing == -1)
+	{
+		std::cout << "Student with ID " << studentID << " not found!";
+	}
+
+	for (int i = removing; i < 4; i++)
+	{
+		classRosterArray[i] = classRosterArray[i + 1];
+	}
+	size--;
 }
 void Roster::printAll()
 {
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < size; i++)
 	{
 		classRosterArray[i]->print();
 	}
-	std::cout << std::endl;
 	 
 }
 void Roster::printAverageDaysInCourse(std::string studentID)
@@ -143,7 +161,6 @@ void Roster::printInvalidEmails()
 		}
 
 	}
-	std::cout << std::endl;
 }
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram)
 {

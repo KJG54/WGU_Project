@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
-
-
+#include "Student.h"
 
 class Roster
 {
@@ -9,6 +8,8 @@ class Roster
 public:
 
 	int j = 0;
+
+	int size = 5;
 
 	//Declaration of RosterArray
 
