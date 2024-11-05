@@ -101,15 +101,15 @@ void Roster::printInvalidEmails()
 	for (int i = 0; i < 5; i++)
 	{
 		emailArray[i] = classRosterArray[i]->getEmail();
-	}
+	
 
-	for (int k = 0; k < 5; k++)
-	{
-		for (char c : emailArray[k])
+	/*for (int k = 0; k < 5; k++)
+	{*/
+		for (char c : emailArray[i])
 		{
-			if (c == space && c == !period && c == !at)
+			if (c == space || c == !period || c == !at)
 			{
-				std::cout << emailArray[k] << std::endl;
+				std::cout << emailArray[i] << std::endl;
 			}
 			//else if ()
 			//{
@@ -120,8 +120,8 @@ void Roster::printInvalidEmails()
 			//	std::cout << emailArray[i] << std::endl;
 			//}
 		}
+	//}
 	}
-
 }
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram)
 {}
