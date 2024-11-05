@@ -96,32 +96,19 @@ void Roster::printInvalidEmails()
 	char at = '@';
 	char period = '.';
 	char space = ' ';
-	bool validity = true;
 
 	for (int i = 0; i < 5; i++)
 	{
 		emailArray[i] = classRosterArray[i]->getEmail();
-	}
 
-	for (int k = 0; k < 5; k++)
-	{
-		for (char c : emailArray[k])
+		if (emailArray[i].find(at) == std::string::npos ||
+			emailArray[i].find(period) == std::string::npos ||
+			emailArray[i].find(space) != std::string::npos)
 		{
-			if (c == space && c == !period && c == !at)
-			{
-				std::cout << emailArray[k] << std::endl;
-			}
-			//else if ()
-			//{
-			//	std::cout << emailArray[i] << std::endl;
-			//}
-			//else if ()
-			//{
-			//	std::cout << emailArray[i] << std::endl;
-			//}
+			std::cout << emailArray[i] << std::endl;
 		}
-	}
 
+	}
 }
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram)
 {}
