@@ -32,25 +32,7 @@ std::string Student::getLastName()const { return lastName; }
 std::string Student::getEmail()const { return email; }
 int Student::getAge()const { return age; }
 int* Student::getDaysInCourse()const { return daysInCourses; }
-//DegreeProgram Student::getDegreeProgram()const { return degreeProgram; }
-std::string Student::getDegreeProgram()const 
-{ 
-    std::string degree;
-
-    switch (degreeProgram)
-    {
-    case SECURITY:
-        degree = "SECURITY";
-        break;
-    case NETWORK:
-        degree = "NETWORK";
-        break;
-    case SOFTWARE:
-        degree = "SOFTWARE";
-        break;
-    }
-    return degree;
-}
+DegreeProgram Student::getDegreeProgram()const { return degreeProgram; }
 
 //Setter definitions
 
@@ -64,4 +46,30 @@ void Student::setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgra
 
 //Additional functions
 
-void Student::print() {}
+void Student::print() 
+{
+    std::string degree;
+
+    switch (getDegreeProgram())
+    {
+    case SECURITY:
+        degree = "SECURITY";
+        break;
+    case NETWORK:
+        degree = "NETWORK";
+        break;
+    case SOFTWARE:
+        degree = "SOFTWARE";
+        break;
+    }
+
+    int* arr = getDaysInCourse();
+
+    std::cout << getStudentID() << "\t";
+    std::cout << "First Name: " << getFirstName() << "\t";
+    std::cout << "Last Name: " << getLastName() << "\t";
+    std::cout << "Age: " << getAge() << "\t";
+    std::cout << "daysInCourse: {" << arr[0] << ", " << arr[1] << ", " << arr[2] << "} ";
+    std::cout << "Degree Program: " << degree << std::endl;
+}
+

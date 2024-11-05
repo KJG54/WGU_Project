@@ -17,4 +17,18 @@ int main() {
 	classRoster.printAll();
 	
 	classRoster.printInvalidEmails();
+
+	for (int i = 0; i < 5; i++)
+	{
+		classRoster.printAverageDaysInCourse(classRoster.classRosterArray[i]->getStudentID());
+	}
+	std::cout << std::endl;
+
+	classRoster.printByDegreeProgram(SOFTWARE);
+
+	//classRoster.remove("A3");
+
+	//classRoster.printAll();
+
+	//classRoster.remove("A3");
 }
