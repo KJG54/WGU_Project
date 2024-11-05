@@ -34,7 +34,7 @@ public:
     std::string getEmail()const;
     int getAge()const;
     int* getDaysInCourse()const;
-    std::string getDegreeProgram()const;
+    DegreeProgram getDegreeProgram()const;
 
     //Setters
 
