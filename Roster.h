@@ -7,12 +7,9 @@ class Roster
 
 public:
 
-	Roster() {};
+	Roster();
 
-	~Roster() 
-	{
-		//delete[] classRosterArray;
-	};
+	~Roster();
 
 	int j = 0;
 
