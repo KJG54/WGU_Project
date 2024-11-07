@@ -24,7 +24,10 @@ public:
     //Constructor
     Student() {};
     Student(std::string studentID, std::string firstName, std::string lastName, std::string email, int age, const int daysInCourse[], DegreeProgram degreeProgram);
-    ~Student() {};
+    ~Student() 
+    { 
+        /*delete[] daysInCourses;*/ 
+    };
 
     //Getters
 

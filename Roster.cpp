@@ -55,15 +55,49 @@ void Roster::parse(std::string student)
 	Roster::add(stuID, first, last, email, stuAge, daysOfCourse1, daysOfCourse2, daysOfCourse3, program);
 }
 
+//void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
+//{
+//	int daysOf3Courses[3] = { daysInCourse1, daysInCourse2, daysInCourse3 };
+//
+//	for (int i = 0; i < size; i++)
+//	{
+//		if (classRosterArray[i] == nullptr)
+//		{
+//			classRosterArray[i] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
+//			return;
+//		}
+//	}
+//}
+
 void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 {
 	int daysOf3Courses[3] = {daysInCourse1, daysInCourse2, daysInCourse3};
 	classRosterArray[j] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
 	j++;
 }
+
+//void Roster::remove(std::string studentID)
+//{
+//	bool found = false;
+//
+//	for (int i = 0; i < size; i++)
+//	{
+//		if (classRosterArray[i] != nullptr && classRosterArray[i]->getStudentID() == studentID)
+//		{
+//			delete classRosterArray[i];
+//			classRosterArray[i] = nullptr;
+//			found = true;
+//			break;
+//		}
+//	}
+//	if (!found)
+//	{
+//		std::cout << "Student with ID " << studentID << " not found." << std::endl;
+//	}
+//}
+
 void Roster::remove(std::string studentID)
 {
-	Student* newArr[4];
 
 	int removing = -1;
 
@@ -87,6 +121,7 @@ void Roster::remove(std::string studentID)
 	}
 	size--;
 }
+
 void Roster::printAll()
 {
 	for (int i = 0; i < size; i++)
@@ -97,8 +132,8 @@ void Roster::printAll()
 }
 void Roster::printAverageDaysInCourse(std::string studentID)
 {
-	float avg;
-	float avgArr[5];
+	double avg;
+	double avgArr[5];
 	int sum;
 	int day1;
 	int day2;

@@ -1,7 +1,2 @@
-﻿  Main.cpp
-  Roster.cpp
-C:\Users\kryst\source\repos\WGU Project\Roster.cpp(66,11): warning C4101: 'newArr': unreferenced local variable
-C:\Users\kryst\source\repos\WGU Project\Roster.cpp(116,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Student.cpp
-  Generating Code...
+﻿  Roster.cpp
   WGU Project.vcxproj -> C:\Users\kryst\source\repos\WGU Project\x64\Debug\WGU Project.exe

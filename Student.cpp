@@ -15,14 +15,10 @@ Student::Student(std::string studentID, std::string firstName, std::string lastN
     this->daysInCourses = new int [3];
     for (int i = 0; i < 3; i++)
     {
-        daysInCourses[i] = daysInCourse[i];
+        this->daysInCourses[i] = daysInCourse[i];
     }
     this->degreeProgram = degreeProgram;
 }
-
-//Destructors
-
-
 
 //Getter definitions
 

@@ -9,13 +9,16 @@ public:
 
 	Roster() {};
 
-	~Roster() {};
+	~Roster() 
+	{
+		//delete[] classRosterArray;
+	};
 
 	int j = 0;
 
 	int size = 5;
 
-	//Declaration of RosterArray
+	//Declaration of classRosterArray
 
 	Student* classRosterArray[5];
 
