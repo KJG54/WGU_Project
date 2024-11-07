@@ -1,9 +1,2 @@
 ﻿  Roster.cpp
-<<<<<<< HEAD
-  Student.cpp
-  Generating Code...
-  LINK : C:\Users\kryst\source\repos\WGU Project\x64\Debug\WGU Project.exe not found or not built by the last incremental link; performing full link
   WGU Project.vcxproj -> C:\Users\kryst\source\repos\WGU Project\x64\Debug\WGU Project.exe
-=======
-  WGU Project.vcxproj -> C:\Users\kryst\source\repos\WGU_Project\x64\Debug\WGU Project.exe
->>>>>>> 1f697f7083a5e5c318e874badec4e8d61a1129fa

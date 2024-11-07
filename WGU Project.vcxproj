@@ -133,7 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Degree.h" />
-    <ClInclude Include="Functions.h" />
     <ClInclude Include="Roster.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
