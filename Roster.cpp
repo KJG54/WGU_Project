@@ -2,6 +2,32 @@
 #include "Degree.h"
 #include "Roster.h"
 
+
+//Constructor
+
+Roster::Roster()
+{
+	for (int i = 0; i < 5; i++)
+	{
+		classRosterArray[i] = nullptr;
+	}
+}
+
+
+//Destructor
+
+Roster::~Roster()
+{
+
+	for (int i = 0; i < 5; i++)
+	{
+		delete classRosterArray[i];
+		classRosterArray[i] = nullptr;
+	}
+
+	//delete[] classRosterArray;
+};
+
 //Functions
 void Roster::parse(std::string student)
 {
@@ -55,81 +81,86 @@ void Roster::parse(std::string student)
 	Roster::add(stuID, first, last, email, stuAge, daysOfCourse1, daysOfCourse2, daysOfCourse3, program);
 }
 
-//void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
-//{
-//	int daysOf3Courses[3] = { daysInCourse1, daysInCourse2, daysInCourse3 };
-//
-//	for (int i = 0; i < size; i++)
-//	{
-//		if (classRosterArray[i] == nullptr)
-//		{
-//			classRosterArray[i] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
-//			return;
-//		}
-//	}
-//}
-
 void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 {
-	int daysOf3Courses[3] = {daysInCourse1, daysInCourse2, daysInCourse3};
-	classRosterArray[j] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
-	j++;
+	int daysOf3Courses[3] = { daysInCourse1, daysInCourse2, daysInCourse3 };
+
+	for (int i = 0; i < size; i++)
+	{
+		if (classRosterArray[i] == nullptr)
+		{
+			classRosterArray[i] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
+			return;
+		}
+	}
 }
 
-//void Roster::remove(std::string studentID)
+//void Roster::add(std::string studentID, std::string firstName, std::string lastName, std::string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeProgram)
 //{
-//	bool found = false;
-//
-//	for (int i = 0; i < size; i++)
-//	{
-//		if (classRosterArray[i] != nullptr && classRosterArray[i]->getStudentID() == studentID)
-//		{
-//			delete classRosterArray[i];
-//			classRosterArray[i] = nullptr;
-//			found = true;
-//			break;
-//		}
-//	}
-//	if (!found)
-//	{
-//		std::cout << "Student with ID " << studentID << " not found." << std::endl;
-//	}
+//	int daysOf3Courses[3] = {daysInCourse1, daysInCourse2, daysInCourse3};
+//	classRosterArray[j] = new Student(studentID, firstName, lastName, emailAddress, age, daysOf3Courses, degreeProgram);
+//	j++;
 //}
 
 void Roster::remove(std::string studentID)
 {
+	bool found = false;
 
-	int removing = -1;
-
-	std::cout << "Removing " << studentID << std::endl;	
-
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < size; i++)
 	{
-		if (classRosterArray[i]->getStudentID() == studentID) {
-			removing = i;
+		if (classRosterArray[i] != nullptr && classRosterArray[i]->getStudentID() == studentID)
+		{
+			delete classRosterArray[i];
+			classRosterArray[i] = nullptr;
+			found = true;
 			break;
 		}
 	}
-	if (removing == -1)
+	if (!found)
 	{
-		std::cout << "Student with ID " << studentID << " not found!";
+		std::cout << "Student with ID " << studentID << " not found." << std::endl;
 	}
-
-	for (int i = removing; i < 4; i++)
-	{
-		classRosterArray[i] = classRosterArray[i + 1];
-	}
-	size--;
 }
+
+//void Roster::remove(std::string studentID)
+//{
+//
+//	int removing = -1;
+//
+//	std::cout << "Removing " << studentID << std::endl;	
+//
+//	for (int i = 0; i < 5; i++)
+//	{
+//		if (classRosterArray[i]->getStudentID() == studentID) {
+//			removing = i;
+//			break;
+//		}
+//	}
+//	if (removing == -1)
+//	{
+//		std::cout << "Student with ID " << studentID << " not found!";
+//	}
+//
+//	for (int i = removing; i < 4; i++)
+//	{
+//		classRosterArray[i] = classRosterArray[i + 1];
+//	}
+//	size--;
+//}
 
 void Roster::printAll()
 {
 	for (int i = 0; i < size; i++)
 	{
-		classRosterArray[i]->print();
+		if (classRosterArray[i] != nullptr)
+		{
+			classRosterArray[i]->print();
+
+		}
 	}
 	 
 }
+
 void Roster::printAverageDaysInCourse(std::string studentID)
 {
 	double avg;
